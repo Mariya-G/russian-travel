@@ -1,8 +1,6 @@
 .cover{
     display: flex;
     margin: 92px 0 89px 0;
-    background-image: url(../../images/cover-trains.jpg);
-    background-size: cover;
 }
 @media screen and (max-width: 1024px){
     .cover{

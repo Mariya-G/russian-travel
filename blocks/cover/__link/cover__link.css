@@ -1,14 +1,8 @@
 .cover__link{
-    background-color: rgba(42, 44, 47, .3);
+    background-image:  url(../../../images/cover-trains.jpg);
+    background-size: cover;
     width: 100%;
-    min-height: 740px;
     text-decoration: none;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-.cover__link:hover{
-    background-color: rgba(42, 44, 47, .8);
 }
 @media screen and (max-width: 1024px){
     .cover__link {
@@ -22,6 +16,6 @@
 }
 @media screen and (max-width: 320px){
     .cover__link {
-        min-height: 320px;
+        min-height: 200px;
     }
 }

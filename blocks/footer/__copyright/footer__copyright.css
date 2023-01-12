@@ -19,3 +19,8 @@
         margin-left: 16px;
     }
 }
+@media screen and (max-width: 320px){
+    .footer__copyright{
+        line-height: 1;
+    }
+}

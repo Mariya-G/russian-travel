@@ -1,16 +1,18 @@
-.place__website{
-    display: flex;
-    align-self: end;
-    flex-direction: column;
-    margin: 0 0 48px 8px;
+.place__website {
+  display: flex;
+  align-self: end;
+  flex-direction: column;
+  margin: 0 0 48px 8px;
 }
-@media screen and (max-width: 1024px){
-    .place__website {
-        margin-left: 9px;
-    }
+
+@media screen and (max-width: 1024px) {
+  .place__website {
+    margin-left: 9px;
+  }
 }
-@media screen and (max-width: 320px){
-    .place__website {
-        margin: 0 0 32px 16px;
-    }
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    margin: 0 0 32px 16px;
+  }
 }

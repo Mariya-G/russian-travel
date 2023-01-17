@@ -1,13 +1,14 @@
-.lead__image{
-    max-width: calc(100% - 200px);
-    max-height: 615px;
-    object-fit: contain;
-    margin: 0 auto;
-    display: block;
+.lead__image {
+  max-width: calc(100% - 200px);
+  max-height: 615px;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
 }
-@media screen and (max-width: 1024px){
-    .lead__image{
-        max-height: 580px;
-        max-width: 100%;
-    }
+
+@media screen and (max-width: 1024px) {
+  .lead__image {
+    max-height: 580px;
+    max-width: 100%;
+  }
 }

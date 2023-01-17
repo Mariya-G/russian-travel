@@ -1,9 +1,10 @@
-.place{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
-@media screen and (max-width: 440px){
-    .place {
-        grid-template-columns: 1fr;
-    }
+
+@media screen and (max-width: 440px) {
+  .place {
+    grid-template-columns: 1fr;
+  }
 }
